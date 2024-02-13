@@ -1,0 +1,53 @@
+*{
+    font-family: lato;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    height: 100%;
+    background-color: grey;
+
+}
+
+
+.bt{
+    
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    width: 240px;
+    height: 130px;
+    border-radius: 5px;
+    border: none;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+.bt:hover{
+    background-image: linear-gradient(to right top, #c7365e, #bf4b92, #a368bc, #7582d6, #3997dd);;
+    
+}
+
+.pad{
+    background-color: rgb(164, 177, 177);
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    font-family: lato;
+    font-weight: bold;
+}
+
+.pad:hover{
+    background-color: rgb(17, 200, 233);
+    height: 150px;
+    width: 150px;
+}

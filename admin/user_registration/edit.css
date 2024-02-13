@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #78b5fa;
+    margin: 0;
+    padding: 0;
+}
+
+.b-bk-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.b-bk-btn:hover {
+    background-color: #45a049;
+}
+
+.g-bk {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #d6d4d4;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+.success {
+    color: #2ecc71;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-container table tr td:first-child {
+    width: 30%;
+}
+
+.form-container table tr td:last-child {
+    width: 70%;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    input {
+        padding: 14px; /* Adjusted padding for better touch interaction on small screens */
+    }
+
+    .btn-primary {
+        padding: 16px 20px; /* Adjusted padding for better touch interaction on small screens */
+    }
+}
+
+
+.but-download-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: set a height to center vertically */
+    gap: 30px;
+}
+
+.but-download {
+    /* Add your button styles here */
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: none !important;
+    cursor: pointer; /* Add this to show a pointer cursor on hover */
+    background-color: #0b770f; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+
+}
+
+.but-download:hover {
+    background-color: #ba0ae6; /* Set your desired background color on hover */
+}
+
+

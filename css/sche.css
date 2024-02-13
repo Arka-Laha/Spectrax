@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0.3rem;
+    font-size: 3rem;
+}
+h2{
+    margin-bottom: 0.5rem;
+    color: aqua;
+}
+.title{
+    text-align: center;
+    font-family: arial;
+}
+.title p{
+    color: #eef2f7;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.timeline{
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+.checkpoint {
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    transition: transform 0.4s ease-in-out;
+    
+}
+
+.checkpoint div:hover {
+    width: 100% !important;
+    transform: perspective(500px) rotateX(10deg);
+    transition: transform 0.4s ease-in-out;
+    border-color: aqua;
+    box-shadow: 0 8px 16px rgba(0, 128, 128, 0.8); /* Aqua box shadow on hover */
+
+
+}
+
+.checkpoint div{
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5em;
+
+}
+.checkpoint p{
+    line-height: 27px;
+    counter-reset: #ccc;
+    font-family: arial;
+}
+.checkpoint:nth-child(odd){
+    border-left: 3px solid #888;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+.checkpoint:nth-child(even){
+    border-right: 3px solid #888;
+    padding-left: 3em;
+    transform: translateX(-16.8em);
+}
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before {
+    content: '';
+    background: #888;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before{
+    left: 0;
+}
+.checkpoint:nth-child(even)::before{
+    right: 0;
+}
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before{
+    content: '';
+    background: #fff;
+    box-shadow: 0 0 0.5em #0d71fc;
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+.checkpoint:nth-child(odd) div::before{
+    left: -0.5em;
+}
+.checkpoint:nth-child(even) div::before{
+    right: -0.5em;
+}
+
+.button{
+    border: 2px solid #fff;
+    /* padding-left: 5rem; */
+    /* padding-right: 5rem; */
+    /* margin-left: 15rem;
+    margin-right: 5rem; */
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width:100px;
+    display: flex;
+    border-radius: 15%;
+    /* margin-top: 10px; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button a:hover {
+    
+   color: #000;
+}
+.button:hover{
+    background-color: #fff;
+    
+}
+.bac{
+    height: auto;
+}
+.hed-lin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white !important;
+
+}
+
+/* responsive */
+@media screen and (max-width:1150px){
+    .timeline{
+        width: 80vw;
+    }
+    .timeline .checkpoint{
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+    .timeline .checkpoint::before{
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .timeline .checkpoint div::before{
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .bac {
+        height: auto;
+        margin-bottom: 40%;
+    }
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.cont{
+    font-family: lato;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+    background-color:white;
+    font-weight: bold;
+}
+
+.width{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(202, 199, 199);
+    color: crimson;
+    border: none;
+}
+
+.box{
+    width: 25%;
+    height: 7%;
+    
+    
+}
+
+.submit{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(8, 185, 8);
+    color: white;
+    border: none;
+}
+
+.side{
+    display: left;
+    background-color: rgb(248, 51, 110);
+    width: 38%;
+    height: 6%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+  .adminbox{
+    width: fit-content;
+  }

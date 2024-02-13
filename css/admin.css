@@ -1,0 +1,143 @@
+*{
+    font-family: lato;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.bak1{
+    background-color: black;   
+    color: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+span{
+    color: rgb(247, 7, 99);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.control-heading {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+.admin-name{
+   
+    padding-right: 10px;
+}
+
+/* Media query for screens with a maximum width of 600px (adjust as needed) */
+@media only screen and (max-width: 600px) {
+    .control-heading {
+        font-size: 2rem; /* Adjust the font size for smaller screens */
+    }
+    .admin-name{
+        float:right;
+        padding-right: 10px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+}
+
+
+.btn{
+    height: 35px;
+    width: 80px;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: greenyellow;
+    border: none; 
+    transition: all 0.8s ease;
+    font-weight: bolder;
+    border: 2px solid #ef4e7b;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.btn:hover{
+    text-decoration: none;
+    background-color: rgb(100, 235, 245);   
+    color: black;
+}
+
+.back2 {
+    margin:0px 0px;
+    text-align: center;
+    background-color: rgb(41, 44, 44);
+    padding: 10px;
+}
+.pad{
+background-color: whitesmoke;
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+    width: 250px;
+    font-size: 1.5rem;
+    height: 125px;
+    border-radius: 10px;
+    border: none;
+    font-family: lato;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.admin-cont {
+    display: flex;
+    justify-content: center; /* Centers child elements horizontally */
+    align-items: center; /* Centers child elements vertically */
+    gap: 20px; /* Adjust the value according to your preference */
+}
+
+/* Media query for screens with a maximum width of 600px (adjust as needed) */
+@media only screen and (max-width: 600px) {
+    .admin-cont {
+        flex-direction: column; /* Stack child elements vertically on smaller screens */
+    }
+}
+
+
+
+.pad:hover{
+background-color: #f37055;}
+.bk{
+    height: 100%;
+background-color: #78b5fa;
+	background-size: 400% 400%;
+
+}
+
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: transparent;
+    position: relative;
+    border-radius: var(--borderWidth);
+    }
+    .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+    }
+    
+    @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+    }

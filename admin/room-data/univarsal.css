@@ -1,0 +1,286 @@
+.font-lato{
+    font-family: lato;
+}
+.text-center{
+    text-align:center;
+}
+
+.text-left{
+  text-align:left;
+}
+
+.text-right{
+  text-align:right;
+}
+
+.bg-color-red {
+    background-color: red;
+    
+  }
+  
+  .bg-color-blue {
+    background-color: blue;
+  }
+  
+  .bg-color-green {
+    background-color: green;
+  }
+  
+  .bg-color-yellow {
+    background-color: yellow;
+  }
+  
+  .bg-color-pink {
+    background-color: pink;
+  }
+
+  .bg-color-yellowgreen {
+    background-color: yellowgreen;
+  }
+  
+  .bg-color-purple{
+    background-color:purple;
+    }
+    
+    .bg-color-orange{
+    background-color:orange;
+    }
+    
+    .bg-color-pink{
+    background-color:pink;
+    }
+    
+    .bg-color-brown{
+    background-color:brown;
+    }
+    
+    .bg-color-grey{
+    background-color:rgb(185, 182, 182);
+    }
+
+    .bg-color-black{
+        background-color:rgb(7, 7, 7);
+    }
+  
+    .text-bold{
+        font-weight: bold;
+    }
+
+    .text-bolder{
+        font-weight: bolder;
+    }
+
+    .text-lighter{
+        font-weight: lighter;
+    }
+
+    .text-color-red {
+        color: red;
+        }
+        
+        .text-color-blue {
+        color: blue;
+        }
+        
+        .text-color-green {
+        color: green;
+        }
+        
+        .text-color-yellow {
+        color: yellow;
+        }
+        
+        .text-color-pink {
+        color: pink;
+        }
+        
+        .text-color-yellowgreen {
+        color: yellowgreen;
+        }
+        
+        .text-color-purple{
+        color:purple;
+        }
+
+        .text-color-orange{
+        color:orange;
+        }
+            
+        .text-color-pink{
+        color:pink;
+        }
+            
+        .text-color-brown{
+        color:brown;
+        }
+            
+        .text-color-grey{
+        color:grey;
+        }
+            
+        .text-color-black{
+        color:rgb(7, 7, 7);
+        }
+
+        .text-color-aqua{
+        color:aqua;
+        }
+        
+        .text-color-aqua{
+        color:crimson;
+        }
+
+        .text-allcap{
+            text-transform:uppercase;
+        }
+        .text-dec-no{
+            text-decoration: none;
+        }
+
+        .box-shadow{
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+    .border-no{
+        border: none;
+    }    
+
+    .border-1px{
+        border: 1px solid black;
+    }  
+    
+    .border-2px{
+        border: 2px solid black;
+    } 
+
+    .border-3px{
+        border: 3px solid black;
+    } 
+
+    .border-4px{
+        border: 4px solid black;
+    } 
+
+    .txt1{
+        font-size: 1px;
+      }
+      
+     .txt2{
+        font-size: 2px;
+      }
+      
+      .txt3{
+        font-size: 3px;
+      }
+      
+      .txt4{
+        font-size: 4px;
+      }
+      
+      .txt5{
+        font-size: 5px;
+      }
+      
+      .txt6{
+        font-size: 6px;
+      }
+      
+      .txt7{
+        font-size: 7px;
+      }
+      
+      .txt8{
+        font-size: 8px;
+      }
+      
+      .txt9{
+        font-size: 9px;
+      }
+      
+      .txt10{
+        font-size: 10px;
+      }
+      
+      .txt11{
+        font-size: 11px;
+      }
+      
+      .txt12{
+        font-size: 12px;
+      }
+      
+      .txt13{
+        font-size: 13px;
+      }
+      
+      .txt14{
+        font-size: 14px;
+      }
+      
+      .txt15{
+        font-size: 15px;
+      }
+      
+      .txt16{
+        font-size: 16px;
+      }
+      
+      .txt17{
+        font-size: 17px;
+      }
+      
+      .txt18{
+        font-size: 18px;
+      }
+      
+      .txt19{
+        font-size: 19px;
+      }
+      
+      .txt20{
+        font-size: 20px;
+      }
+      
+      .txt21{
+        font-size: 21px;
+      }
+      
+      .txt22{
+        font-size: 22px;
+      }
+      
+      .txt23{
+        font-size: 23px;
+      }
+      
+      .txt24{
+        font-size: 24px;
+      }
+      
+      .txt25{
+        font-size: 25px;
+      }
+      
+      .txt26{
+        font-size: 26px;
+      }
+      
+      .txt27{
+        font-size: 27px;
+      }
+      
+      .txt28{
+        font-size: 28px;
+      }
+      
+      .txt29{
+        font-size: 29px;
+      }
+      
+      .txt30{
+        font-size: 30px;
+      }
+      
+      .float-l{
+        float: left;
+      }

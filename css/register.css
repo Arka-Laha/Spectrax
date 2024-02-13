@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/157557/photo-1428550670225-15f007f6f1ba.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-div {
+    background-color: transparent;
+    backdrop-filter: blur(55px);
+    border: 1px solid white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 15px;
+    gap: 10px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, border-color 0.3s;
+}
+input {
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial;
+    outline: none;
+    border: none;
+    color:white;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    border-bottom: 2px solid aqua;
+}
+
+input::placeholder {
+    color: rgb(172, 172, 172); /* Set the placeholder color to blue */
+}
+
+
+
+
+input:hover {
+    background-color: #ddd; /* Change the background color on hover */
+    background-color:transparent;
+    color:white;
+
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+    background-color: green;
+    color:white;
+    font-weight: bolder;
+    border: none !important  ;
+    transition: background-color 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(11, 192, 11); /* Change the background color on hover */
+    color: white; /* Change text color on hover */
+    border: none !important;
+    outline: none !important  ;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .form-div {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+
+    input {
+        width: -webkit-fill-available; /* Make the input fields take the full width on smaller screens */
+        text-align: center;
+    
+    }
+   
+
+    input[type="submit"] {
+        height: 45px; /* Adjust height for better touch interaction on smaller screens */
+    }
+}
